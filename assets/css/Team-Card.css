@@ -1,0 +1,51 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.team-body {
+    margin: 4em 1em 4em 1em;
+    text-align: center;
+}
+
+.team-body h1 {
+    font-size: calc(26px + 1vw);
+    color: rgb(187, 67, 67);
+}
+
+.card {
+    flex: 0 0 275px;
+    margin: 10px;
+    border: 1px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 0.5em;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+.card p {
+    color: grey;
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.new-row {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.card img {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
