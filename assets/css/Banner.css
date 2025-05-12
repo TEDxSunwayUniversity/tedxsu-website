@@ -12,10 +12,25 @@
   }
 }
 
+#carousel-1 {
+  height: 700px;
+  /* 👈 Choose a fixed height you want */
+  overflow: hidden;
+}
+
+#carousel-1 .item img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  /* or 'contain' if you don't want cropping */
+  display: block;
+  margin: 0 auto;
+}
+
 #promo .jumbotron {
   border-radius: 20px;
   padding: 40px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255, 255, 255, 0.75);
   max-width: 800px;
   margin: 0 auto;
 }
@@ -25,4 +40,3 @@
     padding: 20px;
   }
 }
-
